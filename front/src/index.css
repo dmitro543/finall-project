@@ -5,4 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  justify-content: center;
+}
+
+.child {
+  border: 1px solid;
+  height: 700px;
+}
+
+.back {
+  width: 400px;
+  background: linear-gradient(180deg, #5431DF 0%, rgba(120, 92, 230, 0) 100%);
+  height: 500px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hello {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.bank {
+  font-size: 16px;
+}
+
+.image {
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  top: 0px;
+  left: 420px;
+}
+
+.sign {
+  background: rgba(119, 92, 229, 1);
+  padding: 12px;
+  border-radius: 12px;
+  color: #fff;
+  width: 300px;
+}
+
+.buttons {
+  display: grid;
+  justify-content: center;
+  position: relative;
+  top: 350px;
+  gap: 12px;
+}
+
+.sign-out {
+  border: 1px solid rgba(119, 92, 229, 1);
+  color: rgba(119, 92, 229, 1);
+  padding: 12px;
+  border-radius: 12px;
+  width: 300px;
 }
